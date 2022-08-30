@@ -1,7 +1,5 @@
 <?php 
 $text = 'How much wood would a woodchuck chuck if a woodchuck could chuck wood?';
-$text_array = explode(' ', $text);
-var_dump($text_array);
 $badword = $_GET['name'];
 $new_text = str_replace($badword, '***', $text);
 ?>
